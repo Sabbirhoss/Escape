@@ -1,0 +1,573 @@
+@font-face{
+	src: url(../fonts/Cubano-Regular.otf);
+	font-family: Cubano-Regular;
+}
+@font-face{
+	src: url(../fonts/Brandon_light.otf);
+	font-family: Brandon_light;
+}
+@font-face{
+	src: url(../fonts/Brandon_bld.otf);
+	font-family: Brandon_bld;
+}
+@font-face{
+	src: url(../fonts/Brandon_med.otf);
+	font-family: Brandon_med;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-image: url(../images/banner.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center;
+
+}
+.opasity{
+	background-color: rgba(0, 0, 0, .3);
+
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+
+}
+.head{
+	min-height: 50px;
+	margin-top: 40px;
+
+}
+.logo{
+	width: 150px;
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+
+}
+.menu{
+	width: 70%;
+	float: right;
+
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	font-family: Brandon_med;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 20px; 
+	transition: .3s;
+
+}
+.menu ul li a:hover{
+	color: #B2B0B0;
+}
+.b-content{
+	width: 80%;
+	margin: 100px auto;
+	text-align: center;
+}
+.b-content p{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 32px;
+	color: #fff;
+
+}
+.b-content h1{
+	font-family: Brandon_bld;
+	font-weight: 700;
+	font-size: 66px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 30px 0 0;
+
+}
+.b-content button{
+	font-family: Brandon_med;
+	font-size: 23px;
+	color: #fff;
+	width: 240px;
+	height: 65px;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	margin-top: 40px;
+	cursor: pointer;
+	transition: .3s;
+
+}
+.b-content button:hover{
+	background-color: #fff;
+	color: #6F6F6F;
+}
+.b-content button:focus{
+	outline: none;
+}
+/*header end*/
+/*service start*/
+.service{
+	overflow: hidden;
+	padding: 80px 0;
+}
+.s-left{
+	width: 61%;
+	float: left;
+	margin: 0;
+}
+.s-left h1{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 60px;
+	color: #222222;
+	margin: 0 0 40px;
+
+}
+.s-left h1 span{
+	font-family: Brandon_bld;
+	font-weight: 700;
+	font-size: 60px;
+	color: #222222;
+
+}
+.s-left p{
+	margin: 0 0 30px;
+	font-family: Brandon_med;
+	font-size: 18px;
+	color: #777777;
+
+}
+.s-left p:last-child{
+	margin-bottom: 0;
+}
+.s-right{
+	width: 25%;
+	float: right;
+	margin-top: 50px;
+}
+.s-right img{
+
+}
+.service2{
+	background-color: #F9F9F9;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+/*service end*/
+/*2nd service start*/
+.service-2nd{
+	padding: 80px 0;
+
+}
+.single{
+	overflow: hidden;
+	width: 45%;
+	float: left;
+	margin-bottom: 50px;
+
+}
+.single:nth-child(even){
+	margin-left: 10%;
+}
+.single:nth-child(5){
+	margin-bottom: 0;
+}
+.single:nth-child(6){
+	margin-bottom: 0;
+}
+.icon{
+	width: 20%;
+	float: left;
+
+}
+.icon i{
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border-radius: 50%;
+	padding: 16px;
+}
+.single_content{
+	width: 76%;
+	float: right;
+}
+.single_content h1{
+	font-family: Brandon_bld;
+	font-weight: 700;
+	font-size: 22px;
+	color: #222222;
+	margin: 0 0 20px;
+
+}
+.single_content p{
+	font-family: Brandon_med;
+	font-size: 18px;
+	color: #777777;
+	margin: 0;
+
+}
+/*2nd service end*/
+/*Awesome Clients review start*/
+.Clients{
+	background-color: #F9F9F9;
+	padding: 80px 0;
+
+}
+.titel{
+	text-align: center;
+	margin: 0 0 80px;
+
+}
+.titel h1{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 60px;
+	color: #222222;
+	margin: 0;
+
+}
+.titel h1 span{
+	font-family: Brandon_bld;
+	font-weight: 700;
+	font-size: 50px;
+	color: #222222;
+
+}
+.titel p{
+	font-family: Brandon_med;
+	font-size: 22px;
+	color: #777777;
+	margin: 0
+
+}
+.Client{
+	overflow: hidden;
+	margin-bottom: 80px;
+
+}
+.Client:nth-child(odd){
+	margin-bottom: 0;
+}
+.c_img{
+	float: left;
+
+}
+.c_img img{
+	border:1px solid #fff;
+	border-radius: 500px;
+	width: 220px;
+	height: 220px;
+
+}
+.talkbubble {
+  width: 400px;
+  height: 130px;
+  background: #fff;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  float: right;
+  margin: 20px 10px 0 0;
+  padding: 10px;
+}
+.talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 58px;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-right: 26px solid #fff;
+  border-bottom: 12px solid transparent;
+}
+.c_review{
+	float: right;
+	text-align: center;
+
+}
+.c_review p{
+	font-family: Brandon_med;
+	font-size: 18px;
+	color: #777777;
+	line-height: 25px;
+	margin-bottom: 20px;
+
+}
+.c_review a{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 16px;
+	color: #7690c5;
+	text-decoration: none;
+
+}
+
+.c_img2{
+	float: right;
+
+}
+.c_review2{
+	float: left;
+}
+.talkbubble2{
+  width: 400px;
+  height: 130px;
+  background: #fff;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  float: left;
+  margin: 20px 10px 0 0;
+  padding: 10px;
+}
+.talkbubble2:before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 58px;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 26px solid #fff;
+  border-bottom: 12px solid transparent;
+}
+/*Awesome Clients review end*/
+/*company logo start*/
+.company{
+	background-repeat: #fff;
+	padding: 20px 0; 
+}
+.company-logo{
+	width: 68%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.company-logo ul{
+	margin: 0;
+	padding: 0;
+}
+.company-logo ul li{
+	list-style: none;
+	float: left;
+}
+.company-logo ul li a{
+	padding: 15px;
+}
+.company-logo ul li a img{}
+/*company logo end*/
+/*Amazing Team member start*/
+.team{
+	overflow: hidden;
+	padding: 80px 0;
+	background-color: #000000;
+}
+.t-titel{}
+.t-titel h1{
+	font-size: 60px;
+	color: #ebebeb;
+}
+.t-titel h1 span{
+	color: #ebebeb;
+}
+.t-titel p{
+	font-size: 22px;
+	color: #777777;
+}
+.team-start{
+	overflow: hidden;
+	width: 30%;
+	text-align: center;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 80px;
+
+}
+.team-start:last-child{
+	margin-right: 0;
+}
+.team-start img{
+	border: 1px solid black;
+	border-radius: 500px;
+	width: 220px;
+	height: 220px;
+
+}
+.team-start h4{
+	font-family: Brandon_med;
+	font-size: 18px;
+	color: #fff;
+	margin: 20px 0 0;
+
+}
+.team-start p{
+	font-family: Brandon_med;
+	font-size: 16px;
+	color:#ebebeb;
+	margin: 10px 0 0;
+
+}
+.team-start ul{
+	margin: 20px 0 0 45px;
+	padding: 0;
+
+}
+.team-start ul li{
+	list-style: none;
+	float: left;
+
+}
+.team-start ul li a{
+	padding: 0 6px;
+
+}
+.team-start ul li a i{
+	font-size: 20px;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	color: #ebebeb;
+	background-color: black;
+	border: 2px solid #ebebeb;
+	border-radius: 50%;
+	padding: 13px;
+	transition: .3s;
+
+
+}
+.team ul li a i:hover{
+	background-color: #ebebeb;
+	color: black;
+}
+.team-content{
+	text-align: center;
+}
+.team-content p{
+	font-family: Brandon_med;
+	font-size: 20px;
+	color: #ebebeb;
+}
+/*Amazing Team member end*/
+/*footer start*/
+footer{
+	background-color: #768FC5;
+	padding: 80px 0 10px;
+}
+.f-left{
+	width: 46%;
+	overflow: hidden;
+	float: left;
+}
+.f-left h1{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 50px;
+	color: #fff;
+}
+.f-left h1 span{
+	font-family: Brandon_bld;
+	font-weight: 700;
+	color: #fff;
+}
+.f-left p{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+
+}
+.f-left table tr td{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	padding: 15px 60px 0 0;
+	cursor: pointer;
+}
+.f-left table tr td:nth-child(even){
+	padding-right: 0;
+}
+.f-right{
+	width: 48%;
+	overflow: hidden;
+	float: right;
+
+}
+.f-right input[type="name"],input[type="text"],textarea,button{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 18px;
+	color: #bbbbbb;
+	border: none;
+}
+.f-right input[type="name"],input[type="text"],textarea,button:focus{
+	outline: none;
+}
+.f-right input[type="name"]{
+	width: 450px;
+	height: 50px;
+	margin-top: 46px;
+
+}
+.f-right input[type="text"]{
+	width: 450px;
+	height: 50px;
+	margin-top: 20px;
+}
+.f-right textarea{
+	width: 450px;
+	height: 200px;
+	margin-top: 20px;
+}
+.f-right button{
+	width: 120px;
+	height: 40px;
+	margin-top: 10px;
+	color: black;
+	cursor: pointer;
+	border-radius: 3px;
+	transition: .3s;
+}
+.f-right button:hover{
+	color: #fff;
+	background-color: #8C8C8C;
+}
+.f-bottom{
+	width: 70%;
+	margin: 80px auto 0;
+	text-align: center;
+}
+.f-bottom p{
+	font-family: Brandon_light;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+}
+/*footer end*/
